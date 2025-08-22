@@ -1,4 +1,4 @@
-# 🔗 CrediFi MVP - AI-Powered Decentralized Lending Platform
+#  CrediFi MVP - AI-Powered Decentralized Lending Platform
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io/)
@@ -6,20 +6,20 @@
 [![Web3](https://img.shields.io/badge/Web3-6.0+-orange.svg)](https://web3py.readthedocs.io/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## 🎯 Project Overview
+##  Project Overview
 
 CrediFi is a revolutionary **AI-powered decentralized lending platform** that combines machine learning with blockchain technology to provide instant, transparent, and fair loan assessments.
 
-### 🌟 Key Features
+###  Key Features
 
-- **🤖 AI-Powered Risk Assessment**: XGBoost model with 92% accuracy
-- **🔗 Blockchain Integration**: Ethereum smart contracts for immutable records
-- **📊 SHAP Explainability**: Transparent decision-making with feature importance
-- **⚡ Real-time Processing**: Instant loan applications and decisions
-- **🎨 Modern UI**: Streamlit-based user-friendly interface
-- **🔒 Decentralized**: Trustless lending protocol
+- **AI-Powered Risk Assessment**: XGBoost model with 92% accuracy
+- **Blockchain Integration**: Ethereum smart contracts for immutable records
+- **SHAP Explainability**: Transparent decision-making with feature importance
+- **Real-time Processing**: Instant loan applications and decisions
+- **Modern UI**: Streamlit-based user-friendly interface
+- **Decentralized**: Trustless lending protocol
 
-## 📊 Model Performance
+##  Model Performance
 
 | Metric | Value |
 |--------|-------|
@@ -30,7 +30,7 @@ CrediFi is a revolutionary **AI-powered decentralized lending platform** that co
 | **Training Records** | 25,924 |
 | **Testing Records** | 6,481 |
 
-## 🏗️ Architecture
+## 🏗Architecture
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -43,7 +43,7 @@ CrediFi is a revolutionary **AI-powered decentralized lending platform** that co
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -96,42 +96,42 @@ python 2_Train_Model.py
 streamlit run credifi_blockchain_app.py
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 CrediFi-MVP/
-├── 📊 Data & Models
+├──  Data & Models
 │   ├── Credit-Risk-Dataset.csv          # Original dataset
 │   ├── cleaned_credit_data.csv          # Processed data
 │   └── credifi_model.pkl               # Trained model
 │
-├── 🔧 Core Scripts
+├──  Core Scripts
 │   ├── 1_Data_Processing.py            # Data cleaning & EDA
 │   ├── 2_Train_Model.py                # Model training
 │   └── credifi_blockchain_app.py       # Main dApp
 │
-├── 🔗 Blockchain
+├──  Blockchain
 │   ├── smart_contracts/                # Solidity contracts
 │   ├── blockchain_integration.py       # Web3 integration
 │   ├── deploy_simple.py               # Contract deployment
 │   └── deployment_info.json           # Contract details
 │
-├── 📓 Notebooks
+├──  Notebooks
 │   ├── CrediFi_MVP.ipynb              # Complete pipeline
 │   └── EDA_Credit_Risk.ipynb          # Exploratory analysis
 │
-├── 📚 Documentation
+├──  Documentation
 │   ├── README.md                      # This file
 │   ├── PROJECT_SUMMARY.md             # Technical details
 │   ├── BLOCKCHAIN_SETUP.md            # Blockchain guide
 │   └── WALLET_CONNECTION_GUIDE.md     # Wallet setup
 │
-└── 📋 Configuration
+└──  Configuration
     ├── requirements.txt               # Python dependencies
     └── .gitignore                    # Git ignore rules
 ```
 
-## 🤖 AI Model Details
+##  AI Model Details
 
 ### Features Used
 - **Numerical**: Age, Income, Employment Length, Loan Amount, Loan-to-Income Ratio, Credit History Length
@@ -159,7 +159,7 @@ Pipeline([
 - **Interest Rate**: 7% + (11% × default_probability)
 - **Rejection**: Default probability ≥ 40%
 
-## 🔗 Blockchain Integration
+##  Blockchain Integration
 
 ### Smart Contract Features
 - **Loan Application Submission**: Store application data
@@ -173,7 +173,7 @@ Pipeline([
 - **Test Networks**: Sepolia, Goerli (configurable)
 - **Mainnet**: Ready for deployment (with security audit)
 
-## 📊 Dataset Information
+##  Dataset Information
 
 ### Source
 - **Dataset**: Credit Risk Dataset
@@ -186,7 +186,7 @@ Pipeline([
 - **Risk Factors**: Income, loan grade, home ownership, age
 - **Data Quality**: No missing values, clean dataset
 
-## 🎯 Use Cases
+##  Use Cases
 
 ### For Lenders
 - **Automated Risk Assessment**: Instant credit scoring
@@ -200,7 +200,7 @@ Pipeline([
 - **Transparent Process**: Clear reasoning for decisions
 - **Lower Barriers**: Reduced documentation requirements
 
-## 🔧 Technical Stack
+##  Technical Stack
 
 ### Frontend
 - **Streamlit**: Web application framework
@@ -224,7 +224,7 @@ Pipeline([
 - **Solidity**: Smart contract language
 - **Ganache**: Local development blockchain
 
-## 🚀 Deployment
+##  Deployment
 
 ### Local Development
 1. Start Ganache: `ganache-cli --port 8545 --accounts 10 --defaultBalanceEther 100`
@@ -237,7 +237,7 @@ Pipeline([
 3. **Frontend**: Deploy Streamlit app to cloud platform
 4. **Security Audit**: Professional smart contract audit
 
-## 📈 Performance Metrics
+##  Performance Metrics
 
 ### Model Performance
 - **Accuracy**: 92%
@@ -249,14 +249,14 @@ Pipeline([
 - **Processing Speed**: Weeks → Seconds
 - **Accuracy Improvement**: 85% → 92%
 
-## 🔒 Security Features
+##  Security Features
 
 - **Smart Contract Security**: Reentrancy protection, access controls
 - **Data Privacy**: Local processing, no sensitive data storage
 - **Model Security**: Input validation, adversarial attack protection
 - **Blockchain Security**: Immutable records, transparent audit trail
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature-name`
@@ -264,17 +264,17 @@ Pipeline([
 4. Push to branch: `git push origin feature-name`
 5. Submit a pull request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Dataset**: Credit Risk Dataset for training
 - **Libraries**: XGBoost, SHAP, Streamlit, Web3.py
 - **Community**: Open source contributors and blockchain developers
 
-## 📞 Contact
+##  Contact
 
 - **GitHub**: [@VineetKamath](https://github.com/VineetKamath)
 - **Project**: [CrediFi-MVP](https://github.com/VineetKamath/CrediFi-MVP)
@@ -282,6 +282,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**⭐ Star this repository if you find it helpful!**
-
-**🔗 Built with ❤️ using AI and Blockchain technology** 
+** Star this repository if you find it helpful!**
