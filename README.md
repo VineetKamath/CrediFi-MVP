@@ -30,7 +30,7 @@ CrediFi is a revolutionary **AI-powered decentralized lending platform** that co
 | **Training Records** | 25,924 |
 | **Testing Records** | 6,481 |
 
-## 🏗Architecture
+## Architecture
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
